@@ -39,48 +39,100 @@
 
 ## ✨ Features
 
+<div align="center">
+
+### Why Choose NekoBox?
+
+</div>
+
+```diff
++ Built for speed, designed for efficiency, crafted for simplicity
+```
+
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="25%">
+<br/>
 
-### ⚡ High-Speed Downloads
-- **5-50 concurrent downloads**
-- Individual file progress tracking
-- Real-time speed monitoring
-- MB/s display for each file
+### ⚡
+### **Lightning Fast**
+5-50 concurrent downloads with real-time speed monitoring
 
+<br/>
 </td>
-<td width="50%">
+<td align="center" width="25%">
+<br/>
 
-### 🎯 Intelligent Download Modes
-- **Single Mode**: Direct image/post URLs
-- **Batch Mode**: Entire galleries & profiles
-- Configurable download limits
-- Smart queue management
+### 🎯
+### **Smart Modes**
+Single or Batch downloads with intelligent queue management
 
+<br/>
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td align="center" width="25%">
+<br/>
 
-### 🎨 Modern Interface
-- Dark-themed UI built with Chakra UI
-- Real-time progress visualization
-- Expandable download cards
-- Responsive design
+### 🎨
+### **Modern UI**
+Dark-themed interface with real-time progress visualization
 
+<br/>
 </td>
-<td width="50%">
+<td align="center" width="25%">
+<br/>
 
-### ⚙️ Flexible Configuration
-- Custom download directories
-- Quality settings
-- File type filtering
-- Naming pattern customization
+### ⚙️
+### **Fully Customizable**
+Custom directories, quality settings, and naming patterns
 
+<br/>
 </td>
 </tr>
 </table>
+
+<details>
+<summary><b>📋 View Detailed Features</b></summary>
+
+<br/>
+
+**⚡ High-Speed Downloads**
+- 5-50 concurrent downloads
+- Individual file progress tracking
+- Real-time speed monitoring (MB/s)
+- Smart bandwidth management
+
+**🎯 Intelligent Download Modes**
+- **Single Mode**: Direct image/post URLs
+- **Batch Mode**: Entire galleries & profiles
+- Configurable download limits
+- Automatic retry on failure
+
+**🎨 Modern Interface**
+- Dark-themed UI with Chakra UI
+- Real-time progress visualization
+- Expandable download cards
+- Clean, responsive design
+
+**⚙️ Flexible Configuration**
+- Custom download directories
+- Quality settings (Original/High/Medium)
+- File type filtering (Image/Video)
+- Advanced naming patterns
+- Connection settings
+
+**🔐 Authentication Support**
+- Cookie-based authentication
+- Browser cookie import
+- Session management
+- Multi-account support
+
+**📊 Download Management**
+- Pause/Resume functionality
+- Queue prioritization
+- Duplicate detection
+- Automatic folder organization
+
+</details>
 
 ---
 
