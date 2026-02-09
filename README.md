@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🐱 NekoBox
+<img src="icon.ico" width="128" height="128" alt="NekoBox Icon"/>
+
+# NekoBox
 
 ### Modern Bulk Image Downloader for Image Boards & Galleries
 

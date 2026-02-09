@@ -4,25 +4,30 @@
 
 ## Terms
 
-This project is provided for **demonstration and portfolio purposes only**.
+This software is provided for **personal use and portfolio demonstration purposes**.
 
-### Restrictions
+### ✅ Permitted Use
+
+You **ARE** permitted to:
+- **Download and install** the software
+- **Use the software** for personal, non-commercial purposes
+- **View the source code** for educational and reference purposes
+- **Review the code** for technical assessment and portfolio evaluation
+
+### ❌ Prohibited Actions
 
 You are **NOT** permitted to:
-- Use this software for any purpose
-- Modify or create derivative works
-- Distribute, sublicense, or sell copies
-- Reverse engineer or decompile
-- Use in commercial products or services
+- **Modify, alter, or edit** the software or source code
+- **Create derivative works** based on this software
+- **Distribute, sublicense, or sell** copies of the software
+- **Reverse engineer or decompile** the software
+- **Use in commercial products** or services
+- **Redistribute** the software in any form
+- **Remove or alter** copyright notices or attributions
 
-### Viewing Only
+### 📝 Summary
 
-The source code and documentation are available for:
-- Portfolio review
-- Technical assessment
-- Educational reference
-
-Any use beyond viewing requires **explicit written permission** from the copyright holder.
+**You can download and use NekoBox for personal use, but you cannot modify, edit, redistribute, or use it commercially.**
 
 ## Third-Party Components
 
