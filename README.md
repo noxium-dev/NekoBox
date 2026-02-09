@@ -4,7 +4,7 @@
 
 ### Modern Bulk Image Downloader for Image Boards & Galleries
 
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 ![Electron](https://img.shields.io/badge/Electron-28.0-47848f?logo=electron)
 ![React](https://img.shields.io/badge/React-18.2-61dafb?logo=react)
@@ -14,7 +14,23 @@
 
 **A high-performance desktop application for bulk downloading images and galleries from popular image boards and art platforms. Built with Electron, React, TypeScript, and Python.**
 
-[Features](#-features) • [Supported Sites](#-supported-sites) • [Installation](#-installation) • [Usage](#-usage) • [Technologies](#-technologies)
+[![⭐ Star this repository](https://img.shields.io/badge/⭐-Star_this_repository-yellow?style=for-the-badge)](https://github.com/noxium-dev/NekoBox)
+
+[Features](#-features) • [Screenshots](#-screenshots) • [Supported Sites](#-supported-sites) • [Installation](#-installation) • [Quick Start](QUICKSTART.md) • [License](LICENSE)
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Main Interface
+![NekoBox Interface](screenshots/Screenshot%202026-02-09%20140613.png)
+
+### Download Queue
+![Download Queue](screenshots/Screenshot%202026-02-09%20140711.png)
 
 </div>
 
@@ -77,16 +93,20 @@ Built-in, optimized scrapers for:
 ### 🔌 Extensible Support (1000+ Sites)
 Integration with **gallery-dl** enables support for thousands of additional sites including Reddit, DeviantArt, Danbooru, Gelbooru, and [many more](SUPPORTED_SITES.md).
 
+> ⚠️ **Note**: Some sites may not work due to authentication restrictions or API changes. We are actively working to bring you more options and improve compatibility.
+
 📋 See the full [**Supported Sites List**](SUPPORTED_SITES.md) for details.
 
 ---
 
 ## 📥 Installation
 
+> **Platform**: Windows only (x64)
+
 ### Download the App
 
 1. Download the latest release from the [Releases](../../releases) page
-2. Run the installer
+2. Run the installer (`NekoBox Setup.exe`)
 3. Launch the application
 
 ### Install Gallery-dl (Optional but Recommended)
@@ -112,34 +132,15 @@ Gallery-dl is licensed under **GPL-2.0+** (GNU General Public License). To maint
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-1. **Set Download Folder**: Go to Settings → Download Location → Browse
-2. **Test Gallery-dl** (if installed): Settings → Gallery-dl Diagnostics → Test Gallery-dl
-3. **Start Downloading**: 
-   - Paste URLs in the Download tab
-   - Choose Single or Batch mode
-   - Click "Start Download"
+### Quick Start
 
----
-
-## 📖 Usage
-
-### Single Mode
-- Download individual images or threads
-- Paste direct image URLs or post URLs
-- Perfect for specific content
-
-### Batch Mode
-- Download entire subreddits, galleries, or profiles
-- Set a limit or download unlimited files
-- Ideal for bulk downloading
-
-### Queue Management
-- View all downloads in the Queue tab
-- Pause/resume individual downloads
-- See detailed progress for each file
-- Expand downloads to see individual file progress
+Ready to start downloading? Check out our [**Quick Start Guide**](QUICKSTART.md) for:
+- 📁 Setting up download folders
+- 🎯 Using Single & Batch modes
+- 🔐 Configuring authentication
+- 🛠️ Troubleshooting common issues
 
 ---
 
@@ -151,8 +152,8 @@ Gallery-dl is licensed under **GPL-2.0+** (GNU General Public License). To maint
 |:--------:|:-------:|:-----:|
 | **Electron** | **Python** | **Gallery-dl** |
 | Desktop Framework | Scraping Engine | External Engine |
-| **React** | **C++** | **Vite** |
-| UI Framework | Download Engine | Build Tool |
+| **React** | **C++** | |
+| UI Framework | Download Engine | |
 | **TypeScript** | | |
 | Type Safety | | |
 | **Chakra UI** | | |
@@ -164,26 +165,74 @@ Gallery-dl is licensed under **GPL-2.0+** (GNU General Public License). To maint
 
 ---
 
+## 🚧 Roadmap
+
+We are constantly working to improve NekoBox and bring you more features:
+
+- [ ] 🌍 Multi-language support
+- [ ] 🔔 Download completion notifications
+- [ ] 📊 Advanced filtering and sorting
+- [ ] 🎨 Custom theme support
+- [ ] 🔄 Auto-update functionality
+- [ ] 📱 Mobile companion app (future)
+
+**Stay tuned for updates!** ⭐ Star this repo to follow our progress.
+
+---
+
+## ⚠️ Important Notes
+
+### Authentication Requirements
+- **Pixiv** requires login (cookie export)
+- Some **gallery-dl** sites may require authentication
+- Export cookies using browser extensions (e.g., "Get cookies.txt")
+- Import cookies via Settings → Authentication
+
+### Site Compatibility
+- Some sites may experience temporary issues due to:
+  - API changes or updates
+  - Anti-bot measures
+  - Rate limiting
+  - Regional restrictions
+- We actively monitor and update scrapers
+
+### Performance Tips
+- **Concurrent downloads**: Start with 10-20, adjust based on your connection
+- **Authentication**: Pre-configure cookies for faster access
+- **Disk space**: Ensure adequate space for batch downloads
+
+---
+
 ## 📄 License
 
 **Copyright © 2026. All Rights Reserved.**
 
-This project is for **demonstration and portfolio purposes only**. The source code is available for viewing, but you are not permitted to use, modify, distribute, or compile this software for any purpose without explicit written permission from the owner.
+This project is for **demonstration and portfolio purposes only**. See the [LICENSE](LICENSE) file for full terms.
 
-> **Note**: This application uses gallery-dl as an optional external dependency. Gallery-dl is licensed under GPL-2.0+ and is not bundled with this application. Users must install it separately if they wish to use its features.
+> **Note**: This application uses gallery-dl as an optional external dependency. Gallery-dl is licensed under GPL-2.0+ and is not bundled with this application.
 
 ---
 
 ## 🙏 Credits
 
 - **Gallery-dl**: [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - GPL-2.0+
-- Built with Electron, React, and TypeScript
+- Built with ❤️ using Electron, React, and TypeScript
 
 ---
 
-## 💬 Support
+## 💬 Support & Contributing
 
-For issues or questions about this portfolio project, please contact via GitHub.
+### Get Help
+- 📖 Read the [Quick Start Guide](QUICKSTART.md)
+- 🌐 Check [Supported Sites](SUPPORTED_SITES.md)
+- 💬 Open an issue for bugs or questions
+
+### Show Your Support
+If you find NekoBox useful, please:
+- ⭐ **Star this repository**
+- 🐛 Report bugs and issues
+- 💡 Suggest new features
+- 📢 Share with others
 
 ---
 
@@ -195,6 +244,8 @@ This tool is for personal use only. Please respect the terms of service of the w
 
 ---
 
-Made with ❤️ for the community
+**Made with ❤️ for the community**
+
+[![⭐ Star on GitHub](https://img.shields.io/github/stars/noxium-dev/NekoBox?style=social)](https://github.com/noxium-dev/NekoBox)
 
 </div>
